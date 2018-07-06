@@ -60,9 +60,11 @@ end = ' ' : le dice al input o print que continuea en la línea
 f"str {}" : formatea variables en los {} del string 
 str.capitalize() : convierte la primera letra del string en mayúsculas
 var1.count("str") : cuenta la cantidad del string en la variable
+str.join(seq): retorna un string en donde los elementos de la secuencia han sido unidos por el str separador
 max(var) : valor máximo del string
 min(var) : valor mínimo del string
 var1.replace("str", "STR") : reemplaza un string por otro
+var1.strip("char") : remueve los carácteres de adelante y de atrás de un string 
 var1.upper() : convierte todo el string en mayúsculas
 var1.lower() : convierte todo el string en minúsculas
 
@@ -108,7 +110,7 @@ empty_set = set() # OJO Esto crea un set vacío.
 var = set{arg1, arg2}
 var.add(arg) : agrega al final del set un argumento
 var.update(arg) : actualiza los valores del set
-var.discard(arg) : remueve un argumento del set, si no lo encuentra, no envia error.
+var.discard(arg) : remueve un argumento del set pero sin eliminarlo del set, si no lo encuentra, no envia error.
 set.enumerate(arg) : enumera los argumentos y transforma en set
 var.remove(arg) : remueve un argumento del set, si no lo encuentra, envia error. 
 var.pop() : elimina y guarda el último argumento del set.
